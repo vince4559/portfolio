@@ -7,17 +7,22 @@ import port4 from '../images/port4.png';
 export const Portfolio = () => {
   return(
       <Stack bg={'black'} p={5}  >
-        <Heading p={2} color={'white'} mt={'3rem'} >My Portfolio__</Heading>
+        <Heading size={'lg'} p={2} color={'white'} mt={'5rem'} >My Portfolio__</Heading>
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
             <Image alt='port' src={port1} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >A simple task tracker, use to organise your todos along side the time/date for execution</Text>
-            <Text color={'white'}>Technologies used: Chakra ui, javascript, React</Text>
-            <span style={{color: 'white'}}> Live link: 
-            <Link color={'blue'} href="https://todo-task-list-app.netlify.app/">https://todo-task-list-app.netlify.app/</Link>
-            </span>
+            <Text color={'white'}>
+              Technologies used: Chakra ui, javascript, React
+            </Text>
+            <Text color={'white'} fontSize='.9rem'>link:__
+              <Link color={'green.200'} 
+              href="https://todo-task-list-app.netlify.app/" isExternal>
+              https://todo-task-list-app.netlify.app/
+              </Link>
+            </Text>
             </VStack>          
         </GridItem>
 
@@ -27,10 +32,14 @@ export const Portfolio = () => {
             <Text color={'gray'} fontSize={'1.2rem'} >
              An application that tell you some usefull information about a country when you search with the country name
             </Text>
-            <Text color={'white'}>Technologies used: country-Api, Chakra ui, javascript, React</Text>
-            <span style={{color: 'white'}}> Live link: 
-            <Link color={'blue'} href="https://countrysearchinfo.netlify.app/"> https://countrysearchinfo.netlify.app/</Link>
-            </span>
+            <Text color={'white'}>Technologies used: country-Api, Chakra ui, javascript, React
+            </Text>
+            <Text color={'white'} fontSize='.9rem' >link:__
+            <Link color={'green.200'} 
+            href="https://countrysearchinfo.netlify.app/" isExternal>
+               https://countrysearchinfo.netlify.app/
+            </Link>
+            </Text>
             </VStack>           
         </GridItem>
       </Grid>
@@ -40,12 +49,16 @@ export const Portfolio = () => {
             <VStack  border={'solid 1px gray'} p={3} m={3} >
             <Image alt='port' src={port2} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
-              An application that analysis the amount of words, letters and numbers of each character.
+              An application that analysis the amount of words, letters and numbers of characters in a text
             </Text>
-            <Text color={'white'}>Technologies used: Chakra ui, javascript React.</Text>
-            <span style={{color: 'white'}}> Live link: 
-            <Link color={'blue'} href="##"> http://task</Link>
-            </span>
+            <Text color={'white'}>
+              Technologies used: Chakra ui, javascript, React
+              </Text>
+            <Text color={'white'} fontSize='.9rem'> link:__
+            <Link color={'green.200'} href="##" isExternal>
+               http://task
+            </Link>
+            </Text>
             </VStack>          
         </GridItem>
 
@@ -56,9 +69,12 @@ export const Portfolio = () => {
               A website where users can register and get to see their information on the dashboard and can also log out.
             </Text>
             <Text color={'white'}>Technologies used: Chakra ui, javascript React.</Text>
-            <span style={{color: 'white'}}> Live link: 
-            <Link color={'blue'} href="https://techatonproject2.netlify.app/">https://techatonproject2.netlify.app/</Link>
-            </span>
+            <Text color={'white'} fontSize='.8rem'>link:__
+            <Link color={'green.200'} 
+            href="https://techatonproject2.netlify.app/" isExternal>
+              https://techatonproject2.netlify.app/
+              </Link>
+            </Text>
             </VStack>          
         </GridItem>
       </Grid>

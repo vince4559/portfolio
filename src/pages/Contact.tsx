@@ -41,7 +41,7 @@ export const Contact = () => {
 
   return(
     <Box bg={'blackAlpha.900'} p={3} >
-      <Heading p={2} size={'lg'} color='whiteAlpha.700' mt={'3rem'}>
+      <Heading p={2} size={'xl'} color='whiteAlpha.700' mt={'5rem'}>
         Contact me__
         </Heading>
     <Grid templateColumns={'repeat(2, 1fr)'} gap={2} p={5} >
@@ -74,14 +74,15 @@ export const Contact = () => {
           </Heading>
         </Flex>
         <Flex justify={'center'} gap={3}>
-            <Link href="https://twitter.com/DaVinci25419866">
+            <Link href="https://twitter.com/DaVinci25419866" isExternal>
               <Image  src={twitter} alt='twitter' w={'30px'}/>
               </Link>
-            <Link href="https:www.linkedin.com/mwlite/in/vincent-aigboje-7615b6191">
+            <Link isExternal
+            href="https:www.linkedin.com/mwlite/in/vincent-aigboje-7615b6191">
               <Image  src={linked} alt='linked' w={'30px'}/>
               </Link>
-            <Link href="https://github.com/vince4559">
-              <Image  src={github} alt='github' w={'30px'}/>
+            <Link isExternal href="https://github.com/vince4559">
+              <Image src={github} alt='github' w={'30px'}/>
               </Link>
           </Flex>
       </GridItem>
@@ -150,7 +151,7 @@ export const Contact = () => {
               onChange={handleEvent}
               placeholder="Message" variant={'outline'} />
           </FormControl>
-          <Button type="submit"   colorScheme={'green'}>Send Message</Button>
+          <Button type="submit" colorScheme={'green'}>Send Message</Button>
         </Stack>
     </form>
       </Box>

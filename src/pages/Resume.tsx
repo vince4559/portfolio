@@ -4,7 +4,7 @@ export const Resume = () => {
   return(
     <Box p={5} bg={'black'}>
       
-      <Heading size={'lg'} textColor={'white'} mt={'3rem'}  mb={10}>
+      <Heading size={'lg'} textColor={'white'} mt={'5rem'}  mb={10}>
           CHECK MY RESUME___
       </Heading>
       <Grid templateColumns={'repeat(2, 1fr)'} gap={5}>

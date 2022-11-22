@@ -11,7 +11,7 @@ export const MenuNav = () => {
         <Menu>
           <MenuButton
             as={IconButton}
-            arial-label={'Options'}
+            arial-label={'menu-nav'}
             icon={<AiOutlineMenu />}
             variant='outline'
             colorScheme={'blue'}
@@ -19,8 +19,8 @@ export const MenuNav = () => {
             size={'lg'}
           />
           
-          <MenuList gap={3} bg="gray">
-            <MenuItem>
+          <MenuList gap={3} bg="black" w={'full'} >
+            <MenuItem >
             <NavLink to={'/'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Home
           </NavLink>
             </MenuItem>
@@ -37,7 +37,7 @@ export const MenuNav = () => {
             </NavLink>
             </MenuItem>
             <MenuItem>
-            <NavLink to={'/contact'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}} >Contact
+            <NavLink to={'/contact'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Contact
            </NavLink>
             </MenuItem>
           </MenuList>

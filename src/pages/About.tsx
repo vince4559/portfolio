@@ -7,8 +7,8 @@ export const About = () => {
   return(
     <Box bg={'gray'} h={'100vh'}>
       <Box p={5} bg={'black'}>
-      <Heading color={'gray.200'} mt={'3rem'} p={3} size={['md', 'lg', 'lg', 'xl']}>About Me___</Heading>
-      <Heading textAlign={'center'} textColor={'green.500'} my={4} size={['md', 'lg', 'lg', '2xl']}>
+      <Heading color={'gray.200'} mt={'5rem'} p={3} size={'lg'}>About Me___</Heading>
+      <Heading textAlign={'center'} textColor={'green.500'} my={4} size={'lg'}>
         Frontend  Developer
       </Heading>
       <Text textAlign={'center'} textColor={'whiteAlpha.800'} fontSize={[16, 18, 20, 22]} p={3}>
@@ -47,7 +47,7 @@ export const About = () => {
       </Stack>
 
       <Stack my={4} >
-        <Heading color={'gray.200'}>My Skills__</Heading>
+        <Heading size={'lg'} color={'gray.200'}>My Skills__</Heading>
         <StackedImg />
       </Stack>
 
