@@ -1,5 +1,6 @@
 import { Flex, Menu, MenuButton, IconButton, MenuList, MenuItem, } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export const MenuNav = () => {
   return(
@@ -11,7 +12,7 @@ export const MenuNav = () => {
           <MenuButton
             as={IconButton}
             arial-label={'Options'}
-            // icon={<HamburgerIcon />}
+            icon={<AiOutlineMenu />}
             variant='outline'
             colorScheme={'blue'}
             bg={'white'}

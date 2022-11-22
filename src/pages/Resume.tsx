@@ -4,7 +4,7 @@ export const Resume = () => {
   return(
     <Box p={5} bg={'black'}>
       
-      <Heading size={['lg', 'xl', '2xl', '2xl']} textColor={'white'} my={3}  mb={10}>
+      <Heading size={'lg'} textColor={'white'} mt={'3rem'}  mb={10}>
           CHECK MY RESUME___
       </Heading>
       <Grid templateColumns={'repeat(2, 1fr)'} gap={5}>
@@ -46,10 +46,10 @@ export const Resume = () => {
             <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
               spacing={3} p={3} fontStyle={'oblique'}>
               <ListItem>
-                creating web applications that works with Api and performs CRUD operation 
+                Developing web applications/websites working with Api's and performs CRUD operations 
               </ListItem>
               <ListItem>
-                Work with team on a collaborative project where we used github to manage repository, used trello for task update and Google Meet for cumminicating remotely
+                Work with team on a collaborative project where we used github to manage repository, used slack for task update and Google Meet for cumminicating remotely
               </ListItem>
             </UnorderedList>
           </Stack>
@@ -82,20 +82,20 @@ export const Resume = () => {
             Basic Computer Operation and Software/Hardware Engineering
           </Heading>
           <Text fontSize={[12, 14, 16, 18]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-              2011 - 2013
+          2014 - 2019              
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
-            Linestone Victory Computer Institute, Nigeria.
+          University Of Benin,  Nigeria.
           </Text>
 
           <Heading textColor={'green.300'} fontSize={[14, 16, 18, 20]} mt={10} mb={3}>
             B.Eng Chemical Engineering
           </Heading>
           <Text fontSize={[12, 14, 16, 18]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-              2014 - 2019
+          2011 - 2013
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
-            University Of Benin,  Nigeria.
+          Linestone Victory Computer Institute.        
           </Text>
         </GridItem>
       </Grid>

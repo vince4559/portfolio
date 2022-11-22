@@ -41,7 +41,9 @@ export const Contact = () => {
 
   return(
     <Box bg={'blackAlpha.900'} p={3} >
-      <Heading p={2} size={'lg'} color='whiteAlpha.700'>Contact me__</Heading>
+      <Heading p={2} size={'lg'} color='whiteAlpha.700' mt={'3rem'}>
+        Contact me__
+        </Heading>
     <Grid templateColumns={'repeat(2, 1fr)'} gap={2} p={5} >
     <GridItem p={2} my={3} 
         colSpan={[4, 2, 2, 1]}
@@ -72,9 +74,15 @@ export const Contact = () => {
           </Heading>
         </Flex>
         <Flex justify={'center'} gap={3}>
-            <Link href="##"><Image  src={twitter} alt='twitter' w={'30px'}/></Link>
-            <Link href="##"><Image  src={linked} alt='linked' w={'30px'}/></Link>
-            <Link href="##"><Image  src={github} alt='github' w={'30px'}/></Link>
+            <Link href="https://twitter.com/DaVinci25419866">
+              <Image  src={twitter} alt='twitter' w={'30px'}/>
+              </Link>
+            <Link href="https:www.linkedin.com/mwlite/in/vincent-aigboje-7615b6191">
+              <Image  src={linked} alt='linked' w={'30px'}/>
+              </Link>
+            <Link href="https://github.com/vince4559">
+              <Image  src={github} alt='github' w={'30px'}/>
+              </Link>
           </Flex>
       </GridItem>
 
@@ -107,38 +115,40 @@ export const Contact = () => {
         </Text>
       </GridItem>
     </Grid>
-      <Box p={7}>
-      <form onSubmit={handleSubmit}>
-        <Stack gap={2} >
+      <Box p={7} >
+      <form onSubmit={handleSubmit} 
+      action={"https://getform.io/f/20c2c50c-434f-48c4-a000-67059{portfolio}"} method={'POST'}>
+        <Stack gap={2}>
+          <Heading color={'gray'} fontSize={'1.5rem'}>Send a message__</Heading>
           <Flex gap={2} display={{base:'block', md:'flex', lg:'flex'}} >
-          <FormControl w={'100%'} mb={3}>
+          <FormControl w={'100%'} mb={3} isRequired color={'white'}>
             <Input type={'text'}
               name={'sendername'} 
               value={formdata.sendername}
               onChange={handleEvent}
-              placeholder={'Your name'}  variant={'filled'} /> 
+              placeholder={'Your name'}  variant={'outline'} /> 
           </FormControl>
-          <FormControl w={'100%'}>
+          <FormControl w={'100%'} isRequired color={'white'}>
             <Input type={'email'} 
               name={'mail'} 
               value={formdata.mail}
               onChange={handleEvent}
-              placeholder={'Your Email'} variant={'filled'} /> 
+              placeholder={'Your Email'} variant={'outline'} /> 
           </FormControl>
           </Flex>
-          <FormControl w={'100%'}>
+          <FormControl w={'100%'} isRequired color={'white'}>
             <Input type={'text'} 
               name={'subject'} 
               value={formdata.subject}
               onChange={handleEvent}
-              placeholder={'Subject'}  variant={'filled'} /> 
+              placeholder={'Subject'}  variant={'outline'} /> 
           </FormControl>
-          <FormControl>
+          <FormControl isRequired color={'white'}>
             <Textarea 
               name={'message'} 
               value={formdata.message}
               onChange={handleEvent}
-              placeholder="Message" variant={'filled'} />
+              placeholder="Message" variant={'outline'} />
           </FormControl>
           <Button type="submit"   colorScheme={'green'}>Send Message</Button>
         </Stack>

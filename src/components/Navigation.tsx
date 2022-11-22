@@ -6,7 +6,7 @@ import { MenuNav } from "./MenuNav";
 
 export const Navigation = () => {
   return(
-   <Flex bg={'blackAlpha.900'} shadow={'dark-lg'} p={'.7rem'} px={3} >
+   <Flex bg={'blackAlpha.900'} shadow={'dark-lg'} p={'.7rem'} px={6} position={'fixed'} w={'full'} >
     <Flex justify={'flex-start'} w={'full'} align='center'  >
       <Heading size={'lg'} fontFamily={'serif'} color="white" >
         Vincent Aigboje

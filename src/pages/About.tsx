@@ -1,51 +1,47 @@
-import {Box,  Heading, Grid, GridItem, List, ListIcon, ListItem, Text, Stack,} from '@chakra-ui/react'
+import {Box,  Heading, Grid, GridItem, List, ListIcon, ListItem, Text, Stack, UnorderedList,} from '@chakra-ui/react'
 import { StackedImg } from '../components/StackedImg';
+import { AiOutlineCheck } from "react-icons/ai";
+
 
 export const About = () => {
   return(
     <Box bg={'gray'} h={'100vh'}>
       <Box p={5} bg={'black'}>
-      <Heading color={'gray.200'} p={3} size={['md', 'lg', 'lg', 'xl']}>About Me___</Heading>
+      <Heading color={'gray.200'} mt={'3rem'} p={3} size={['md', 'lg', 'lg', 'xl']}>About Me___</Heading>
       <Heading textAlign={'center'} textColor={'green.500'} my={4} size={['md', 'lg', 'lg', '2xl']}>
         Frontend  Developer
       </Heading>
-      <Text textAlign={'center'} textColor={'white'} fontSize={[16, 18, 20, 22]}>
-        I'm a passionate and always ready to learn frontend developer, who is always ready to take on a new challanges 
+      <Text textAlign={'center'} textColor={'whiteAlpha.800'} fontSize={[16, 18, 20, 22]} p={3}>
+        A passionate and a fast learner who loves to solve problem and not afraid to fail, and also excel with communicating among teams at all levels. Nothing brings me greater pleasure than finding innovative and realible solutions to problems.
       </Text>
       <Stack>
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} my={5} >
         <GridItem colSpan={[2, 2, 1, 1]} mb={3}>
-          <List spacing={3} fontSize={[14, 16, 17, 18]} fontWeight={'medium'} color={'white'}>
+          <UnorderedList spacing={3} fontSize={[14, 16, 17, 18]} fontWeight={'medium'} color={'white'}>
               <ListItem>
-                <ListIcon   />
                 github: www.portfolio.com
               </ListItem>
               <ListItem>
-                <ListIcon  />
                 Phone: +2347065662752
               </ListItem>
               <ListItem>
-                <ListIcon  />
                 City: Benin city, Nigeria.
               </ListItem>
-            </List>
+            </UnorderedList>
             
           </GridItem>
           <GridItem colSpan={[2, 2, 1, 1]} >
-          <List spacing={3} fontSize={[14, 16, 17, 18]} fontWeight={'medium'} color={'white'} >
+          <UnorderedList spacing={3} fontSize={[14, 16, 17, 18]} fontWeight={'medium'} color={'white'} >
             <ListItem>
-                <ListIcon />
                 Degree: B.ENG,  CHEMICAL ENGINEERING
             </ListItem>
             <ListItem>
-                <ListIcon  />
                 Email: aigbojevincent6@gmail.com
               </ListItem>
               <ListItem>
-                <ListIcon   />
                 Freelance: Avialable
               </ListItem>
-          </List>
+          </UnorderedList>
           </GridItem>
         </Grid>
       </Stack>
@@ -61,15 +57,15 @@ export const About = () => {
         <GridItem colSpan={[2, 2, 1, 1]}>
           <List fontSize={[16, 18, 18, 20]} textColor={'white'} spacing={3}>
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'} />
             Quick Learning
             </ListItem>
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'} />
             Positive Attitude
             </ListItem>
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'} />
             Problem Solving
             </ListItem>
           </List>
@@ -78,15 +74,15 @@ export const About = () => {
         <List fontSize={[16, 18, 18, 20]} 
               textColor={'white'} spacing={3} >
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'} />
             Good Team Player
             </ListItem>
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'}/>
             Good Cummunication Skills
             </ListItem>
             <ListItem>
-            <ListIcon  color={'white'} />
+            <ListIcon as={AiOutlineCheck} color={'green.400'}/>
             Time and task Management
             </ListItem>
           </List>
