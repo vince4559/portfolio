@@ -12,7 +12,7 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image alt='port' src={port1} w={'200px'} objectFit={'contain'} />
+            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >A simple task tracker, use to organise your todos along side the time/date for execution</Text>
             <Text color={'white'}>
               Technologies used: Chakra ui, javascript, React
@@ -28,7 +28,7 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'} >
         <VStack border={'solid 1px gray'} p={3} m={3}>
-            <Image alt='port' src={port3} w={'200px'} objectFit={'contain'} />
+            <Image alt='port' loading='lazy' src={port3} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
              An application that tell you some usefull information about a country when you search with the country name
             </Text>
@@ -47,7 +47,7 @@ export const Portfolio = () => {
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}  p={5} >
       <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image alt='port' src={port2} w={'200px'} objectFit={'contain'} />
+            <Image alt='port' loading='lazy' src={port2} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
               An application that analysis the amount of words, letters and numbers of characters in a text
             </Text>
@@ -64,7 +64,7 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image alt='port' src={port4} w={'200px'} objectFit={'contain'} />
+            <Image alt='port' loading='lazy' src={port4} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
               A fully functional site, with user dashboard that displays registration details
             </Text>

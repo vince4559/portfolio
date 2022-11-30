@@ -11,7 +11,7 @@ import linked from '../images/linked.png';
 export const Home = () => {
   return(
     <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} bgRepeat='no-repeat' bgColor={'black'} w={'full'} >
-      <Stack position={'absolute'} bottom={['5rem','3rem','12rem','14rem']} 
+      <Stack position={'absolute'} bottom={['5rem','2rem','12rem','14rem']} 
       p={'1.2rem'} >
      
       <Text w={'50%'} color={'white'} py={'1rem'} fontSize={['1rem','1.3rem','1.5rem','1.5rem']} textAlign='left'  > 
