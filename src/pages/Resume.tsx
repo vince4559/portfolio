@@ -37,7 +37,7 @@ export const Resume = () => {
             textColor={'green.300'} fontWeight={'medium'}>
                --Frontend Developer (Interm) at Techaton--
             </Text>
-            <Text fontSize={[12, 14, 16, 18]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+            <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
               2022 - present
             </Text>
             <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
@@ -49,7 +49,7 @@ export const Resume = () => {
                 Developing web applications/websites working with Api's and performs CRUD operations 
               </ListItem>
               <ListItem>
-                Work with team on a collaborative project where we used github to manage repository, used slack for task update and Google Meet for cumminicating remotely
+                Work with team on a collaborative project where we used github for code collaboration, used slack for task update and Google Meet for cumminicating remotely
               </ListItem>
             </UnorderedList>
           </Stack>
@@ -79,23 +79,23 @@ export const Resume = () => {
             Education
           </Heading>
           <Heading textColor={'green.300'} fontSize={[14, 16, 18, 20]} my={3}>
-            Basic Computer Operation and Software/Hardware Engineering
+          Linestone Victory Computer Institute, Edo state.
           </Heading>
-          <Text fontSize={[12, 14, 16, 18]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+          <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
           2014 - 2019              
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
-          University Of Benin,  Nigeria.
+          Basic Computer Operation and Software/Hardware Engineering
           </Text>
 
           <Heading textColor={'green.300'} fontSize={[14, 16, 18, 20]} mt={10} mb={3}>
-            B.Eng Chemical Engineering
+            University of Benin, Edo state.         
           </Heading>
-          <Text fontSize={[12, 14, 16, 18]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+          <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
           2011 - 2013
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
-          Linestone Victory Computer Institute.        
+          B.Eng Chemical Engineering      
           </Text>
         </GridItem>
       </Grid>

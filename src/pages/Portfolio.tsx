@@ -56,7 +56,7 @@ export const Portfolio = () => {
               </Text>
             <Text color={'white'} fontSize='.9rem'> link:__
             <Link color={'green.200'} href="##" isExternal>
-               http://task
+            https://analyze-text.vercel.app/
             </Link>
             </Text>
             </VStack>          
@@ -66,7 +66,7 @@ export const Portfolio = () => {
             <VStack  border={'solid 1px gray'} p={3} m={3} >
             <Image alt='port' src={port4} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
-              A website where users can register and get to see their information on the dashboard and can also log out.
+              A fully functional site, with user dashboard that displays registration details
             </Text>
             <Text color={'white'}>Technologies used: Chakra ui, javascript React.</Text>
             <Text color={'white'} fontSize='.8rem'>link:__
