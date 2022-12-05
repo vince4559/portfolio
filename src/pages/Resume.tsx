@@ -38,7 +38,7 @@ export const Resume = () => {
                --Frontend Developer (Interm) at Techaton--
             </Text>
             <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-              2022 - present
+              2022 
             </Text>
             <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
               Lagos, Nigeria.
