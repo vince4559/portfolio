@@ -12,15 +12,17 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} />
-            <Text color={'gray'} fontSize={'1.2rem'} >A simple task tracker, use to organise your todos along side the time/date for execution</Text>
+            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} h={'330px'} />
+            <Text color={'gray'} fontSize={'1.2rem'} >
+              A phone- Ecommerce site. with awesome ways to filter products
+            </Text>
             <Text color={'white'}>
               Technologies used: Chakra ui, javascript, React
             </Text>
             <Text color={'white'} fontSize='.9rem'>link:__
               <Link color={'green.200'} 
-              href="https://todo-task-list-app.netlify.app/" isExternal>
-              https://todo-task-list-app.netlify.app/
+              href="https://online-store-murex.vercel.app/" isExternal>
+              https://online-store-murex.vercel.app/
               </Link>
             </Text>
             </VStack>          
