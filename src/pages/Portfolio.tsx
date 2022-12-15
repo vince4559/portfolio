@@ -3,6 +3,7 @@ import port1 from '../images/port1.png';
 import port2 from '../images/port2.png';
 import port3 from '../images/port3.png';
 import port4 from '../images/port4.png';
+import port5 from '../images/port5.png';
 
 export const Portfolio = () => {
   return(
@@ -21,8 +22,8 @@ export const Portfolio = () => {
             </Text>
             <Text color={'white'} fontSize='.9rem'>link:__
               <Link color={'green.200'} 
-              href="https://online-store-murex.vercel.app/" isExternal>
-              https://online-store-murex.vercel.app/
+              href="https://online-store-8pti.vercel.app/" isExternal>
+              https://online-store-8pti.vercel.app/
               </Link>
             </Text>
             </VStack>          
@@ -30,16 +31,16 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'} >
         <VStack border={'solid 1px gray'} p={3} m={3}>
-            <Image alt='port' loading='lazy' src={port3} w={'200px'} objectFit={'contain'} />
+            <Image alt='port' loading='lazy' src={port5} w={'160px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
-             An application that tell you some usefull information about a country when you search with the country name
+            A premium restaurant delivery website
             </Text>
-            <Text color={'white'}>Technologies used: country-Api, Chakra ui, javascript, React
+            <Text color={'white'}>Technologies used: Chakra ui, typescript, React
             </Text>
-            <Text color={'white'} fontSize='.9rem' >link:__
-            <Link color={'green.200'} 
-            href="https://countrysearchinfo.netlify.app/" isExternal>
-               https://countrysearchinfo.netlify.app/
+            <Text color={'white'} fontSize='.9rem' >link:_ 
+             <Link color={'green.200'} 
+            href="https://fast-food-order-exvi.vercel.app/" isExternal>
+              https://fast-food-order-exvi.vercel.app/
             </Link>
             </Text>
             </VStack>           
@@ -78,6 +79,44 @@ export const Portfolio = () => {
               </Link>
             </Text>
             </VStack>          
+        </GridItem>
+      </Grid>
+
+      <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
+
+        <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'} display={'none'}>
+            <VStack  border={'solid 1px gray'} p={3} m={3} >
+            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} h={'330px'} />
+            <Text color={'gray'} fontSize={'1.2rem'} >
+              A phone- Ecommerce site. with awesome ways to filter products
+            </Text>
+            <Text color={'white'}>
+              Technologies used: Chakra ui, javascript, React
+            </Text>
+            <Text color={'white'} fontSize='.9rem'>link:__
+              <Link color={'green.200'} 
+              href="https://online-store-murex.vercel.app/" isExternal>
+              https://online-store-murex.vercel.app/
+              </Link>
+            </Text>
+            </VStack>          
+        </GridItem>
+
+        <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'} >
+        <VStack border={'solid 1px gray'} p={3} m={3}>
+            <Image alt='port' loading='lazy' src={port3} w={'200px'} objectFit={'contain'} />
+            <Text color={'gray'} fontSize={'1.2rem'} >
+             An application that tell you some usefull information about a country when you search with the country name
+            </Text>
+            <Text color={'white'}>Technologies used: country-Api, Chakra ui, javascript, React
+            </Text>
+            <Text color={'white'} fontSize='.9rem' >link:__
+            <Link color={'green.200'} 
+            href="https://countrysearchinfo.netlify.app/" isExternal>
+               https://countrysearchinfo.netlify.app/
+            </Link>
+            </Text>
+            </VStack>           
         </GridItem>
       </Grid>
       </Stack>
