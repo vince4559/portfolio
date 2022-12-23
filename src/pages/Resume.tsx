@@ -82,7 +82,7 @@ export const Resume = () => {
           Linestone Victory Computer Institute, Edo state.
           </Heading>
           <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-          2014 - 2019              
+          2011 - 2013              
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
           Basic Computer Operation and Software/Hardware Engineering
@@ -92,7 +92,7 @@ export const Resume = () => {
             University of Benin, Edo state.         
           </Heading>
           <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-          2011 - 2013
+          2014 - 2020
           </Text>
           <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
           B.Eng Chemical Engineering      
