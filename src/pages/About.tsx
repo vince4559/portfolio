@@ -1,4 +1,4 @@
-import {Box,  Heading, Grid, GridItem, List, ListIcon, ListItem, Text, Stack, UnorderedList,} from '@chakra-ui/react'
+import {Box,  Heading, Grid, GridItem, List, ListIcon, ListItem, Text, Stack, UnorderedList, Link,} from '@chakra-ui/react'
 import { StackedImg } from '../components/StackedImg';
 import { AiOutlineCheck } from "react-icons/ai";
 
@@ -18,8 +18,10 @@ export const About = () => {
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} my={5} >
         <GridItem colSpan={[2, 2, 1, 1]} mb={3}>
           <UnorderedList spacing={3} fontSize={[14, 16, 17, 18]} fontWeight={'medium'} color={'white'}>
-              <ListItem>
-                github: www.portfolio.com
+              <ListItem>github: <Link _hover={{color: 'green'}} href="https://github.com/vince4559" isExternal>
+                   https://github.com/vince4559
+                </Link>
+               
               </ListItem>
               <ListItem>
                 Phone: +2347065662752
