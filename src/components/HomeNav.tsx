@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
  import {HStack } from '@chakra-ui/react'
 export const HomeNav = () => {
   return(
-    <HStack spacing={3} wrap='wrap' display={['none', 'none', 'flex', 'flex']} >
+    <HStack spacing={4} wrap='wrap' display={['none', 'none', 'flex', 'flex']} >
         <NavLink to={'/'} style={({isActive}) => isActive? {color: 'white'} : {color:'turquoise'}}>Home
         </NavLink>
         <NavLink to={'/about'} style={({isActive}) => isActive? {color: 'white'} : {color:'turquoise'}}>About

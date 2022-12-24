@@ -4,6 +4,7 @@ import port2 from '../images/port2.png';
 import port3 from '../images/port3.png';
 import port4 from '../images/port4.png';
 import port5 from '../images/port5.png';
+import port6 from '../images/port6.jpg';
 
 export const Portfolio = () => {
   return(
@@ -13,17 +14,18 @@ export const Portfolio = () => {
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
             <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} h={'330px'} />
-            <Text color={'gray'} fontSize={'1.2rem'} >
-              A phone- Ecommerce site. with awesome ways to filter products
+            <Image loading='lazy' alt='port' src={port6} 
+            w={'200px'} objectFit={'contain'} h={'330px'} />
+            <Text color={'gray'} fontSize={'1rem'} >
+            a web app that give up to date information about your favorite crypto
             </Text>
-            <Text color={'white'}>
-              Technologies used: Chakra ui, javascript, React
+            <Text color={'white'} fontSize={'1rem'}>
+              Technologies used: Chakra ui, Typescript, React, React-alice-carousel, Chartjs, React-chartjs-2, react-paginate.
             </Text>
             <Text color={'white'} fontSize='.9rem'>link:__
               <Link color={'green.200'} 
-              href="https://online-store-8pti.vercel.app/" isExternal>
-              https://online-store-8pti.vercel.app/
+              href="https://crypto-hub-i8wg.vercel.app/" isExternal>
+              https://crypto-hub-i8wg.vercel.app/
               </Link>
             </Text>
             </VStack>          
@@ -49,20 +51,21 @@ export const Portfolio = () => {
 
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}  p={5} >
       <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
-            <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image alt='port' loading='lazy' src={port2} w={'200px'} objectFit={'contain'} />
-            <Text color={'gray'} fontSize={'1.2rem'} >
-              An application that analysis the amount of words, letters and numbers of characters in a text
-            </Text>
-            <Text color={'white'}>
-              Technologies used: Chakra ui, javascript, React
-              </Text>
-            <Text color={'white'} fontSize='.9rem'> link:__
-            <Link color={'green.200'} href="##" isExternal>
-            https://analyze-text.vercel.app/
-            </Link>
-            </Text>
-            </VStack>          
+      <VStack  border={'solid 1px gray'} p={3} m={3} >
+        <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} h={'330px'} />
+        <Text color={'gray'} fontSize={'1.2rem'} >
+          A phone- Ecommerce site. with awesome ways to filter products
+        </Text>
+        <Text color={'white'}>
+          Technologies used: Chakra ui, javascript, React
+        </Text>
+        <Text color={'white'} fontSize='.9rem'>link:__
+          <Link color={'green.200'} 
+          href="https://online-store-8pti.vercel.app/" isExternal>
+          https://online-store-8pti.vercel.app/
+          </Link>
+        </Text>
+        </VStack>           
         </GridItem>
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
@@ -84,20 +87,19 @@ export const Portfolio = () => {
 
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
 
-        <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'} display={'none'}>
-            <VStack  border={'solid 1px gray'} p={3} m={3} >
-            <Image loading='lazy' alt='port' src={port1} w={'200px'} objectFit={'contain'} h={'330px'} />
+        <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
+        <VStack  border={'solid 1px gray'} p={3} m={3} >
+            <Image alt='port' loading='lazy' src={port2} w={'200px'} objectFit={'contain'} />
             <Text color={'gray'} fontSize={'1.2rem'} >
-              A phone- Ecommerce site. with awesome ways to filter products
+              An application that analysis the amount of words, letters and numbers of characters in a text
             </Text>
             <Text color={'white'}>
               Technologies used: Chakra ui, javascript, React
-            </Text>
-            <Text color={'white'} fontSize='.9rem'>link:__
-              <Link color={'green.200'} 
-              href="https://online-store-murex.vercel.app/" isExternal>
-              https://online-store-murex.vercel.app/
-              </Link>
+              </Text>
+            <Text color={'white'} fontSize='.9rem'> link:__
+            <Link color={'green.200'} href="##" isExternal>
+            https://analyze-text.vercel.app/
+            </Link>
             </Text>
             </VStack>          
         </GridItem>
