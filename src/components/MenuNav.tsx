@@ -8,7 +8,7 @@ export const MenuNav = () => {
         justify={'flex-end'}
         w={'full'}
         display={['flex', 'flex', 'none', 'none']}>
-        <Menu>
+        <Menu lazyBehavior='unmount'>
           <MenuButton
             as={IconButton}
             arial-label={'menu-nav'}
@@ -20,23 +20,23 @@ export const MenuNav = () => {
           />
           
           <MenuList gap={3} bg="black" w={'full'} >
-            <MenuItem >
+            <MenuItem fontWeight={'bold'} >
             <NavLink to={'/'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Home
           </NavLink>
             </MenuItem>
-            <MenuItem>
+            <MenuItem fontWeight={'bold'}>
             <NavLink to={'/about'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>About
             </NavLink>
             </MenuItem>
-            <MenuItem>
+            <MenuItem fontWeight={'bold'}>
             <NavLink to={'/resume'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Resume
              </NavLink>
             </MenuItem>
-            <MenuItem>
+            <MenuItem fontWeight={'bold'}>
             <NavLink to={'/portfolio'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Portfolio
             </NavLink>
             </MenuItem>
-            <MenuItem>
+            <MenuItem fontWeight={'bold'}>
             <NavLink to={'/contact'} style={({isActive}) => isActive? {color: 'turquoise'} : {color:'blue'}}>Contact
            </NavLink>
             </MenuItem>

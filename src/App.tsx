@@ -11,9 +11,8 @@ import { Portfolio } from './pages/Portfolio';
 function App() {
   return (
     <Routes>
-      
-      <Route path='/' element={<SharedLayout />}>
       <Route index  element={<Home />} />
+      <Route path='/' element={<SharedLayout />}>
         <Route path='/about' element={<About />}/>
         <Route path='/resume' element={<Resume />}/>
         <Route path='/portfolio' element={<Portfolio />}/>

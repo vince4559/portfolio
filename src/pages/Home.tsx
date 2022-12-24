@@ -4,13 +4,16 @@ import home from '../images/home.png';
 import twitter from '../images/twitter.png';
 import github from '../images/guthub.png';
 import linked from '../images/linked.png';
+import { Navigation } from "../components/Navigation";
 
 
 
 
 export const Home = () => {
   return(
-    <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} bgRepeat='no-repeat' bgColor={'black'} w={'full'} >
+    <Box>
+      <Navigation />
+      <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} bgRepeat='no-repeat' bgColor={'black'} w={'full'} >
       <Stack position={'absolute'} bottom={['5rem','2rem','12rem','14rem']} 
       p={'1.2rem'} >
      
@@ -31,6 +34,7 @@ export const Home = () => {
       </HStack>
       </Stack>
       
+    </Box>
     </Box>
   )
 };
