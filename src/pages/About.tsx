@@ -5,7 +5,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 
 export const About = () => {
   return(
-    <Box bg={'gray'} h={'100vh'}>
+    <Box bg={'gray'} h={'fit-content'}>
       <Box p={5} bg={'black'}>
       <Heading color={'gray.200'} mt={'5rem'} p={3} size={'lg'}>About Me___</Heading>
       <Heading textAlign={'center'} textColor={'green.500'} my={4} size={'lg'}>
