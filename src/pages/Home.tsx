@@ -28,7 +28,7 @@ export const Home = () => {
          <Image src={github} w={'35px'} objectFit={'cover'} alt="git-hub" />
         </Link>
         <Link  isExternal
-         href="https:www.linkedin.com/mwlite/in/vincent-aigboje-7615b6191">
+         href="https://www.linkedin.com/in/vincent-aigboje-7615b6191/">
          <Image src={linked} w={'35px'} objectFit={'cover'} alt="linken" />
         </Link>
       </HStack>
