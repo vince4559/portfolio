@@ -9,7 +9,9 @@ import port6 from '../images/port6.jpg';
 export const Portfolio = () => {
   return(
       <Stack bg={'black'} p={5}  >
-        <Heading size={'lg'} p={2} color={'white'} mt={'5rem'} >My Portfolio__</Heading>
+        <Heading size={'lg'} p={2} color={'white'} mt={'5rem'} >
+          My Portfolio__
+          </Heading>
       <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
 
         <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
@@ -17,10 +19,11 @@ export const Portfolio = () => {
             <Image loading='lazy' alt='port' src={port6} 
             w={'200px'} objectFit={'contain'} h={'330px'} />
             <Text color={'gray'} fontSize={'1rem'} >
-            a web app that give up to date information about your favorite crypto
+            a web app that give up to date information about your favorite crypto.
+            And also have a firebase integration for signup/login and setting watchlist for coin
             </Text>
             <Text color={'white'} fontSize={'1rem'}>
-              Technologies used: Chakra ui, Typescript, React, React-alice-carousel, Chartjs, React-chartjs-2, react-paginate.
+              Technologies used: Chakra ui, Typescript, React, React-alice-carousel, Chartjs, React-chartjs-2, react-paginate, firebase,
             </Text>
             <Text color={'white'} fontSize='.9rem'>link:__
               <Link color={'green.200'} 
