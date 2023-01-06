@@ -1,5 +1,4 @@
-import { Box, FormControl, Grid, GridItem, Heading, Input, Text, Stack, Flex, Textarea, Button, Image, Link } from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Box, Grid, GridItem, Heading, Text,  Flex, Image, Link } from "@chakra-ui/react";
 import address from '../images/address.png';
 import phone from '../images/phone.png';
 import mail from '../images/mail.png';
@@ -7,38 +6,14 @@ import socials from '../images/socials.png';
 import twitter from '../images/twitter.png';
 import github from '../images/guthub.png';
 import linked from '../images/linked.png';
+import ContactForm from "../components/ContactForm";
 
 
 
 
 
-interface FormProps {
-  sendername: string,
-  mail: string,
-  subject: string,
-  message: string
-}
 export const Contact = () => {
-  const initials = {
-    sendername:'',
-    mail: '',
-    subject: '',
-    message:'',
-  }
-
-  const [formdata, setFormData] = useState<FormProps>(initials);
-  
-  const handleEvent = (event:React.FormEvent) => {
-    const {name, value}:any = event.target;
-    setFormData({...formdata, 
-    [name]: value
-    })
-  }
-
-  const handleSubmit =(e:React.SyntheticEvent) => {
-    e.preventDefault()
-  }
-
+    
   return(
     <Box bg={'blackAlpha.900'} p={3} >
       <Heading p={2} size={'xl'} color='whiteAlpha.700' mt={'5rem'}>
@@ -116,45 +91,7 @@ export const Contact = () => {
         </Text>
       </GridItem>
     </Grid>
-      <Box p={7} >
-      <form onSubmit={handleSubmit} 
-      action={"https://getform.io/f/20c2c50c-434f-48c4-a000-67059{portfolio}"} method={'POST'}>
-        <Stack gap={2}>
-          <Heading color={'gray'} fontSize={'1.5rem'}>Send a message__</Heading>
-          <Flex gap={2} display={{base:'block', md:'flex', lg:'flex'}} >
-          <FormControl w={'100%'} mb={3} isRequired color={'white'}>
-            <Input type={'text'}
-              name={'sendername'} 
-              value={formdata.sendername}
-              onChange={handleEvent}
-              placeholder={'Your name'}  variant={'outline'} /> 
-          </FormControl>
-          <FormControl w={'100%'} isRequired color={'white'}>
-            <Input type={'email'} 
-              name={'mail'} 
-              value={formdata.mail}
-              onChange={handleEvent}
-              placeholder={'Your Email'} variant={'outline'} /> 
-          </FormControl>
-          </Flex>
-          <FormControl w={'100%'} isRequired color={'white'}>
-            <Input type={'text'} 
-              name={'subject'} 
-              value={formdata.subject}
-              onChange={handleEvent}
-              placeholder={'Subject'}  variant={'outline'} /> 
-          </FormControl>
-          <FormControl isRequired color={'white'}>
-            <Textarea 
-              name={'message'} 
-              value={formdata.message}
-              onChange={handleEvent}
-              placeholder="Message" variant={'outline'} />
-          </FormControl>
-          <Button type="submit" colorScheme={'green'}>Send Message</Button>
-        </Stack>
-    </form>
-      </Box>
+     <ContactForm />
   </Box>
   )
 };
