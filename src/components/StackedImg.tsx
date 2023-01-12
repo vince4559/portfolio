@@ -8,12 +8,12 @@ import bootstrap from '../images/bootstarp.png';
 import github from '../images/guthub.png';
 import slack from '../images/slack.png';
 import chakras from '../images/chakra.png';
-
+import tailwind from '../images/tailwind.png';
 
 
 export const StackedImg = () => {
   return(
-    <Flex justifyContent={'center'} gap={5} p={3} wrap={'wrap'}>
+    <Flex justifyContent={'center'} gap={6} p={3} wrap={'wrap'}>
       <span style={{color:'turquoise'}}>Html5
       <Image w={'30px'} objectFit={'contain'} src={html} alt="html5" />
       </span>
@@ -40,6 +40,9 @@ export const StackedImg = () => {
       </span>
       <span style={{color:'turquoise'}}>Slack
       <Image w={'40px'} objectFit={'contain'} src={slack} alt="slack" />
+      </span>
+      <span style={{color:'turquoise'}}>Tailwind
+      <Image w={'40px'} objectFit={'contain'} src={tailwind} alt="slack" />
       </span>
     </Flex>
   )
