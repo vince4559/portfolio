@@ -13,7 +13,8 @@ export const Home = () => {
   return(
     <Box>
       <Navigation />
-      <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} bgRepeat='no-repeat' bgColor={'black'} w={'full'} >
+      <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} 
+      bgRepeat='no-repeat' bgColor={'blackAlpha.300'} w={'full'} bgBlendMode='color-dodge'>
       <Stack position={'absolute'} bottom={['5rem','2rem','12rem','14rem']} 
       p={'1.2rem'} >
      

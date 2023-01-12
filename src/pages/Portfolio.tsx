@@ -82,7 +82,7 @@ export const Portfolio = () => {
                 Technologies used: Chakra ui, typescript, React, googlemap
                 </Text>
               <Text color={'white'} fontSize='.9rem'> link:__
-              <Link color={'green.200'} href="##" isExternal>
+              <Link color={'green.200'} href="https://real-estate-rentals.vercel.app/" isExternal>
               https://real-estate-rentals.vercel.app/
               </Link>
               </Text>
