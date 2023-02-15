@@ -17,8 +17,9 @@ export const Resume = () => {
               textColor={'green.300'} fontWeight={'medium'} my={3}>
                 VINCENT AIGBOJE
               </Text>
-              <Text fontSize={[14, 16, 18, 20]} textColor={'white'} fontStyle={'oblique'} >
-                Passionate and innovative Frontend Developer, with 2+ years of experience utilizing technology to make for a better user experience.
+              <Text fontSize={[14, 16, 18, 20]} textColor={'white'} fontStyle={'oblique'} textTransform='capitalize'>
+                Self Driven and enthusiastic Frontend Developer. i help company and 
+                individual increase website performance. leading to more revenue and customer sactisfaction.
               </Text>
               <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
                 spacing={3} p={3}>
@@ -35,7 +36,7 @@ export const Resume = () => {
             <Stack>
               <Text fontSize={[16, 18, 22, 24]} 
               textColor={'green.300'} fontWeight={'medium'}>
-                --Frontend Developer (Interm) at Techaton--
+                --Frontend Developer  at Techaton--
               </Text>
               <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
                 2022 
@@ -46,10 +47,13 @@ export const Resume = () => {
               <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
                 spacing={3} p={3} fontStyle={'oblique'}>
                 <ListItem>
-                  Developing web applications/websites working with Api's and performs CRUD operations 
+                  Led full redesign of website with findings from customer segmentation and competitive research, increasing website leads.
                 </ListItem>
                 <ListItem>
-                  Work with team on a collaborative project where we used github for code collaboration, used slack for task update and Google Meet for cumminicating remotely
+                  Managed and consumed api's from the backend team
+                </ListItem>
+                <ListItem>
+                  Spearheadedly managed projects from start to finish
                 </ListItem>
               </UnorderedList>
             </Stack>
@@ -62,14 +66,17 @@ export const Resume = () => {
               Techinal Skills
             </Heading>
             <Stack>
-              <UnorderedList color={'white'} spacing={3} p={3} fontSize={'1.2rem'}>
+              <UnorderedList color={'white'} spacing={2} p={3} fontSize={'1.2rem'}>
                 <ListItem>Html5</ListItem>
                 <ListItem>Css3</ListItem>
-                <ListItem>Javascript</ListItem>
-                <ListItem>React</ListItem>
+                <ListItem>Javascript</ListItem>                
                 <ListItem>Typescript</ListItem>
                 <ListItem>Chakra ui</ListItem>
                 <ListItem>Bootstrap</ListItem>
+                <ListItem>Tailwind css</ListItem>
+                <ListItem>React</ListItem>
+                <ListItem>Firebase</ListItem>
+                <ListItem>Next js</ListItem>
               </UnorderedList>
             </Stack>
           </GridItem>

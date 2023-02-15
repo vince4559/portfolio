@@ -9,6 +9,9 @@ import github from '../images/guthub.png';
 import slack from '../images/slack.png';
 import chakras from '../images/chakra.png';
 import tailwind from '../images/tailwind.png';
+import nextjs from '../images/nextjs.jpg';
+import firebase from '../images/firebase.png';
+
 
 
 export const StackedImg = () => {
@@ -36,13 +39,19 @@ export const StackedImg = () => {
       <Image w={'40px'} objectFit={'contain'} src={typescript} alt="typescript" />
       </span>
       <span style={{color:'turquoise'}}>Github
-      <Image w={'40px'} objectFit={'contain'} src={github} alt="githb" />
+      <Image w={'40px'} objectFit={'contain'} src={github} alt="github" />
       </span>
       <span style={{color:'turquoise'}}>Slack
       <Image w={'40px'} objectFit={'contain'} src={slack} alt="slack" />
       </span>
       <span style={{color:'turquoise'}}>Tailwind
-      <Image w={'40px'} objectFit={'contain'} src={tailwind} alt="slack" />
+      <Image w={'40px'} objectFit={'contain'} src={tailwind} alt="tailwind" />
+      </span>
+      <span style={{color:'turquoise'}}>Nextjs
+      <Image w={'50px'} objectFit={'contain'} src={nextjs} alt="nextjs" />
+      </span>
+      <span style={{color:'turquoise'}}>Firebase
+      <Image w={'80px'} objectFit={'contain'} src={firebase} alt="firebase" />
       </span>
     </Flex>
   )

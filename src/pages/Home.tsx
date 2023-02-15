@@ -5,6 +5,7 @@ import twitter from '../images/twitter.png';
 import github from '../images/guthub.png';
 import linked from '../images/linked.png';
 import { Navigation } from "../components/Navigation";
+import { GiStumpRegrowth } from "react-icons/gi";
 
 
 
@@ -15,12 +16,18 @@ export const Home = () => {
       <Navigation />
       <Box p={5} h={'100vh'} bgImg={home} bgPosition='center' objectFit={'contain'} 
       bgRepeat='no-repeat' bgColor={'blackAlpha.300'} w={'full'} bgBlendMode='color-dodge'>
-      <Stack position={'absolute'} bottom={['5rem','2rem','12rem','14rem']} 
+      <Stack position={'absolute'} bottom={['3rem','2rem','12rem','8rem']} 
       p={'1.2rem'} >
      
-      <Text w={'50%'} color={'white'} py={'1rem'} fontSize={['1rem','1.3rem','1.5rem','1.5rem']} textAlign='left'  > 
-      A Frontend Developer who loves to solve problem, collaborate  and ready to take on new challanges.
+      <Text w={['60%','50%']} color={'white'} py={'1rem'} fontSize={['.9rem','1.3rem','1.5rem','1.5rem']} textTransform='capitalize'  > 
+      Self Driven and enthusiastic software Developer. i help brands increase their website performance leading to more customer sactisfaction.      
       </Text>
+
+      <HStack w={['70%','50%']}>
+        <GiStumpRegrowth size={'2rem'} color='white' />
+        <Text color={'greenyellow'}>Let's grow your brand!!!.</Text>
+      </HStack>
+
       <HStack p={'.7rem'} spacing={2}>
         <Link href="https://twitter.com/DaVinci25419866" isExternal>
          <Image src={twitter} w={'35px'} objectFit={'cover'} alt="twitter" />

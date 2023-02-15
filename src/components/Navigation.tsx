@@ -10,7 +10,7 @@ export const Navigation = () => {
    <Flex bg={'blackAlpha.900'} shadow={'dark-lg'} p={'.7rem'} px={'2rem'} position={'fixed'} w={'full'} >
     <Flex justify={'flex-start'} w={'full'} align='center'  >
       <Heading size={'lg'} fontFamily={'serif'} color="white" >
-      <NavLink to={'/'} style={({isActive}) => isActive? {color: 'white'} : {color:'turquoise'}}>
+      <NavLink to={'/'} style={({isActive}) => isActive? {color: 'white'} : {color:'turquoise'}}>        
         Vincent Aigboje
         </NavLink>
       </Heading>
