@@ -18,8 +18,7 @@ export const Resume = () => {
                 VINCENT AIGBOJE
               </Text>
               <Text fontSize={[14, 16, 18, 20]} textColor={'white'} fontStyle={'oblique'} textTransform='capitalize'>
-                Self Driven and enthusiastic Frontend Developer. i help company and 
-                individual increase website performance. leading to more revenue and customer sactisfaction.
+                I analyse the needs of a business, and contribute values the business needs using my engineering Skills.
               </Text>
               <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
                 spacing={3} p={3}>
@@ -29,38 +28,7 @@ export const Resume = () => {
               </UnorderedList>
             </Stack>
           </GridItem>
-          <GridItem p={5} colSpan={[2,2,1,1]}>
-            <Heading fontSize={['md', 'md', 'lg', 'xl']} textColor={'white'}>
-              Professional Experience
-            </Heading>
-            <Stack>
-              <Text fontSize={[16, 18, 22, 24]} 
-              textColor={'green.300'} fontWeight={'medium'}>
-                --Frontend Developer  at Techaton--
-              </Text>
-              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
-                2022 
-              </Text>
-              <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
-                Lagos, Nigeria.
-              </Text>
-              <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
-                spacing={3} p={3} fontStyle={'oblique'}>
-                <ListItem>
-                  Led full redesign of website with findings from customer segmentation and competitive research, increasing website leads.
-                </ListItem>
-                <ListItem>
-                  Managed and consumed api's from the backend team
-                </ListItem>
-                <ListItem>
-                  Spearheadedly managed projects from start to finish
-                </ListItem>
-              </UnorderedList>
-            </Stack>
-          </GridItem>
-        </Grid>
-
-        <Grid templateColumns={'repeat(2, 1fr)'} gap={5}>
+          
           <GridItem  p={5} colSpan={[2, 2, 1, 1]} mb={2}>
             <Heading textColor={'white'} fontSize={[20, 22, 24, 24]}>
               Techinal Skills
@@ -72,11 +40,69 @@ export const Resume = () => {
                 <ListItem>Javascript</ListItem>                
                 <ListItem>Typescript</ListItem>
                 <ListItem>Chakra ui</ListItem>
-                <ListItem>Bootstrap</ListItem>
                 <ListItem>Tailwind css</ListItem>
-                <ListItem>React</ListItem>
+                <ListItem>React js</ListItem>
                 <ListItem>Firebase</ListItem>
                 <ListItem>Next js</ListItem>
+              </UnorderedList>
+            </Stack>
+          </GridItem>
+        </Grid>
+
+        <Grid templateColumns={'repeat(2, 1fr)'} gap={5}>
+
+          <GridItem p={5} colSpan={[2,2,1,1]}>
+            <Heading fontSize={['md', 'md', 'lg', 'xl']} textColor={'white'}>
+              Professional Experience
+            </Heading>
+
+            <Stack>
+              <Text fontSize={[16, 18, 20, 22]} 
+              textColor={'green.300'} fontWeight={'medium'}>
+                --Frontend Engineer  at Dimatech Consultancy--
+              </Text>
+              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+                2023 - to current 
+              </Text>
+              <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
+                Lagos, Nigeria.
+              </Text>
+              <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
+                spacing={3} p={3} fontStyle={'oblique'}>
+                <ListItem>
+                  Co-ordinated the design and development of web pages and ensuring that web design is smart phone capable and  user friendly.
+                </ListItem>
+                <ListItem>
+                  Managed and consumed api's from the backend team stricking a balance between functionality and aesthetic design.
+                </ListItem>
+                <ListItem>
+                  Colaborate with stackholders and peers in to ensure proper task allocation and successful deployment of software.
+                </ListItem>
+              </UnorderedList>
+            </Stack>
+
+            <Stack>
+              <Text fontSize={[16, 18, 20, 22]} 
+              textColor={'green.300'} fontWeight={'medium'}>
+                --Frontend Developer  at Techaton-- Interm
+              </Text>
+              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+               2022 Sept -Dec
+              </Text>
+              <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
+                Lagos, Nigeria.
+              </Text>
+              <UnorderedList fontSize={[14, 16, 16, 18]} textColor={'white'} 
+                spacing={3} p={3} fontStyle={'oblique'}>
+                <ListItem>
+                 co-ordinated the use of development tools like React.js , google firebase and github  
+                </ListItem>
+                <ListItem>
+                  Spearheadedly managed projects from start to finish
+                </ListItem>
+                <ListItem>
+                  Use Slack, Zoom and Google Meet to communicate remotely with other developers 
+                </ListItem>
               </UnorderedList>
             </Stack>
           </GridItem>
