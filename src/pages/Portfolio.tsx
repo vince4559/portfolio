@@ -15,6 +15,22 @@ export const Portfolio = () => {
             </Heading>
         <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
 
+        <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
+              <VStack  border={'solid 1px gray'} p={3} m={3} >
+              <Image alt='port' loading='lazy' src={port4} w={'200px'} h={'300px'} objectFit={'contain'} />
+              <Text color={'gray'} fontSize={'1.2rem'} >
+              find out various kind of meals around the world and recipee for making them
+              </Text>
+              <Text color={'white'}>Technologies used: Nextjs-13, javascript, typescript, tailwind-css, themealdb-api.</Text>
+              <Text color={'white'} fontSize='1rem'>link:__
+              <Link color={'green.200'} 
+              href="https://spice-me.vercel.app/" isExternal>
+                https://spice-me.vercel.app/
+                </Link>
+              </Text>
+              </VStack>          
+          </GridItem>
+
           <GridItem colSpan={[2, 2, 1, 1]} mb={7} w={'100%'}>
               <VStack  border={'solid 1px gray'} p={3} m={3} >
               <Image loading='lazy' alt='port' src={port6} 
@@ -92,21 +108,21 @@ export const Portfolio = () => {
 
         <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} m={3}   >
 
-        <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
+        {/* <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'}>
               <VStack  border={'solid 1px gray'} p={3} m={3} >
               <Image alt='port' loading='lazy' src={port4} w={'200px'} h={'300px'} objectFit={'contain'} />
               <Text color={'gray'} fontSize={'1.2rem'} >
-                A fully functional site, with user dashboard that displays registration details
+              find out various kind of meals around the world and recipee for making them
               </Text>
-              <Text color={'white'}>Technologies used: Chakra ui, javascript React.</Text>
-              <Text color={'white'} fontSize='.8rem'>link:__
+              <Text color={'white'}>Technologies used: Nextjs-13, javascript, typescript, tailwind-css, themealdb-api.</Text>
+              <Text color={'white'} fontSize='1rem'>link:__
               <Link color={'green.200'} 
-              href="https://techatonproject2.netlify.app/" isExternal>
-                https://techatonproject2.netlify.app/
+              href="https://spice-me.vercel.app/" isExternal>
+                https://spice-me.vercel.app/
                 </Link>
               </Text>
               </VStack>          
-          </GridItem>
+          </GridItem> */}
 
           <GridItem colSpan={[2, 2, 1, 1]} mb={3} w={'100%'} >
           <VStack border={'solid 1px gray'} p={3} m={3}>
