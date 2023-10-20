@@ -4,7 +4,7 @@ import html from '../images/html.png';
 import css from '../images/css3.png';
 import react from '../images/react.png';
 import typescript from '../images/typescript.png';
-import bootstrap from '../images/bootstarp.png';
+import redux from '../images/reudx.jpeg';
 import github from '../images/guthub.png';
 import slack from '../images/slack.png';
 import chakras from '../images/chakra.png';
@@ -26,14 +26,14 @@ export const StackedImg = () => {
       <span style={{color:'turquoise'}}>Javascript
       <Image w={'40px'} objectFit={'contain'} src={javasript} alt="javascript" />
       </span>
-      <span style={{color:'turquoise'}}>React
+      <span style={{color:'turquoise'}}>React.js
       <Image w={'30px'} objectFit={'contain'} src={react} alt="react" />
       </span>
       <span style={{color:'turquoise'}}>Chakra-ui
       <Image w={'60px'} objectFit={'contain'} src={chakras} alt="chakra" />
       </span>
-      <span style={{color:'turquoise'}}>Bootstrap
-      <Image w={'40px'} objectFit={'contain'} src={bootstrap} alt="bootstrap" />
+      <span style={{color:'turquoise'}}>Redux
+      <Image w={'60px'} objectFit={'contain'} src={redux} alt="redux" />
       </span>
       <span style={{color:'turquoise'}}>Typescript
       <Image w={'40px'} objectFit={'contain'} src={typescript} alt="typescript" />

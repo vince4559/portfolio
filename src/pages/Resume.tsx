@@ -37,11 +37,12 @@ export const Resume = () => {
               <UnorderedList color={'white'} spacing={2} p={3} fontSize={'1.2rem'}>
                 <ListItem>Html5</ListItem>
                 <ListItem>Css3</ListItem>
-                <ListItem>Javascript</ListItem>                
-                <ListItem>Typescript</ListItem>
-                <ListItem>Chakra ui</ListItem>
+                <ListItem>Javascript</ListItem>
                 <ListItem>Tailwind css</ListItem>
-                <ListItem>React js</ListItem>
+                <ListItem>React js</ListItem>           
+                <ListItem>Redux</ListItem>           
+                <ListItem>Typescript</ListItem>
+                <ListItem>Chakra ui</ListItem>             
                 <ListItem>Firebase</ListItem>
                 <ListItem>Next js</ListItem>
               </UnorderedList>
@@ -61,7 +62,7 @@ export const Resume = () => {
               textColor={'green.300'} fontWeight={'medium'}>
                 --Frontend Engineer  at Dimatech Consultancy--
               </Text>
-              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={'fit-content'} p={'1'} fontWeight={'semibold'}>
                 2023 - to current 
               </Text>
               <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
@@ -86,7 +87,7 @@ export const Resume = () => {
               textColor={'green.300'} fontWeight={'medium'}>
                 --Frontend Developer  at Techaton-- Interm
               </Text>
-              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+              <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={'fit-content'} p={'1'} fontWeight={'semibold'}>
                2022 Sept -Dec
               </Text>
               <Text fontSize={[14, 16, 16, 18]} textColor={'white'}>
@@ -114,7 +115,7 @@ export const Resume = () => {
             <Heading textColor={'green.300'} fontSize={[14, 16, 18, 20]} my={3}>
             Linestone Victory Computer Institute, Edo state.
             </Heading>
-            <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+            <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={'fit-content'} p={'1'} fontWeight={'semibold'}>
             2011 - 2013              
             </Text>
             <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>
@@ -124,7 +125,7 @@ export const Resume = () => {
             <Heading textColor={'green.300'} fontSize={[14, 16, 18, 20]} mt={10} mb={3}>
               University of Benin, Edo state.         
             </Heading>
-            <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={['50%', '30%', '25%', '25%']} p={'1'} fontWeight={'semibold'}>
+            <Text fontSize={[10, 12, 14, 16]} textColor={'white'} bg={'gray.700'} w={'fit-content'} p={'1'} fontWeight={'semibold'}>
             2014 - 2020
             </Text>
             <Text fontSize={[14, 16, 16, 18]} textColor={'white'} my={3}>

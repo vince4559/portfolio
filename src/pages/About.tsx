@@ -13,7 +13,7 @@ export const About = () => {
             Frontend  Developer
           </Heading>
           <Text textAlign={'center'} textColor={'whiteAlpha.800'} fontSize={[16, 18, 20, 22]} p={3}>
-            A passionate and a fast learner who loves to solve problem and not afraid to fail, and also excel with communicating among teams at all levels. Nothing brings me greater pleasure than finding innovative and realible solutions to problems.
+            A passionate and a fast learner who loves to solve problem and also excel with communicating among teams at all levels. Nothing brings me greater pleasure than finding innovative and realible solutions to problems.
           </Text>
           <Stack>
           <Grid templateColumns={'repeat(2, 1fr)'} display={['block', 'block', 'flex', 'flex']} justifyContent={'space-around'} my={5} >
@@ -25,7 +25,7 @@ export const About = () => {
                   
                   </ListItem>
                   <ListItem>
-                    Phone: +2347065662752
+                   <a  href='tel: +2347065662752'> Phone: +2347065662752</a>
                   </ListItem>
                   <ListItem>
                     City: Benin city, Nigeria.
@@ -39,7 +39,7 @@ export const About = () => {
                     Degree: B.ENG,  CHEMICAL ENGINEERING
                 </ListItem>
                 <ListItem>
-                    Email: aigbojevincent6@gmail.com
+                    <a href='mailto:aigbojevincent6@gmail.com'>Email: aigbojevincent6@gmail.com</a>
                   </ListItem>
                   <ListItem>
                     Freelance: Avialable

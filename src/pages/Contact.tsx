@@ -73,7 +73,7 @@ export const Contact = () => {
         </Flex>
         <Text textAlign={'center'} 
           fontSize={[14, 16, 18, 20]} fontFamily={'sans-serif'}  textColor={'white'}>
-          aigbojevincent6@gmail.com
+          <a href='mailto:aigbojevincent6@gmail.com'>aigbojevincent6@gmail.com</a>
         </Text>
       </GridItem>
 
@@ -87,7 +87,7 @@ export const Contact = () => {
           <Heading size={'md'} textColor={'white'}>Call Me</Heading>
         </Flex>
         <Text textAlign={'center'}  fontSize={[16, 17, 18, 20]} textColor={'white'} fontFamily={'sans-serif'}>
-          +234(7065662752)
+        <a  href='tel: +2347065662752'>+2347065662752</a>
         </Text>
       </GridItem>
     </Grid>

@@ -20,7 +20,7 @@ export const Home = () => {
       p={'1.2rem'} >
      
       <Text w={['60%','50%']} color={'white'} py={'1rem'} fontSize={['.9rem','1.3rem','1.5rem','1.5rem']}   > 
-      I analyse the needs of brands, and contribute values the business needs using my engineering Skills, leading to more customer sactisfaction.      
+      I analyse the needs of brands, and contribute values the business needs using my specilaty, thus leading to more customer sactisfaction.      
       </Text>
 
       <HStack w={['70%','50%']}>
